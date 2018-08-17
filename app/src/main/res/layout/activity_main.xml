@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/message_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/a" />
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_img"
+        android:gravity="center"
+        android:text="消息" />
+
+    <TextView
+        android:id="@+id/message_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
+        android:layout_toRightOf="@+id/message_img"
+        android:text="12"
+        android:background="@drawable/red_bubble_bg"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+</RelativeLayout>
